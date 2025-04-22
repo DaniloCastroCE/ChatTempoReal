@@ -1,0 +1,34 @@
+.box-login-cadastro {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-cadastro {
+  background-color: #cccccc;
+  color: black;
+  width: auto;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.login-cadastro form input {
+  padding: 5px;
+}
+
+.login-cadastro form button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+
+.login-cadastro form .btns {
+  display: flex;
+  flex-direction: row;
+}

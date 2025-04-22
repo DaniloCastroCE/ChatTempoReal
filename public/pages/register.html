@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/login-register.css" />
+  </head>
+  <body>
+    <div class="box-login-cadastro">
+      <div class="login-cadastro">
+        <h2 class="titulo">Tela de Registro</h2>
+        <form action="/register" method="post">
+          <table>
+            <tr>
+              <td>
+                <label for="nome">Nome</label>
+              </td>
+              <td>
+                <input
+                  type="text"
+                  name="nome"
+                  id="nome"
+                  placeholder="Digite seu nome"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="senha">Senha</label>
+              </td>
+              <td>
+                <input
+                  type="password"
+                  name="senha"
+                  id="senha"
+                  placeholder="Digite sua senha"
+                />
+              </td>
+            </tr>
+          </table>
+          <div class="btns">
+            <button type="submit" class="btn">Registrar</button>
+            <button
+              type="button"
+              class="btn"
+              onclick="window.location.href='/'"
+            >
+              Voltar
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
